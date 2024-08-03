@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "推荐",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "dayily-recommend": "../../components/DayilyRecommend/DayilyRecommend",
+    "common-push": "../../components/common-push/common-push",
+    "custom-picture-list": "../../components/custom-picture-list/custom-picture-list",
+    "custom-navigator-bar": "../../components/custom-navigator-bar/custom-navigator-bar"
+  }
+}

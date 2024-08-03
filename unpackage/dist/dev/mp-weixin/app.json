@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/mine/mine",
+    "pages/categoryinfolist/categoryinfolist",
+    "pages/detail/detail",
+    "pages/notice/notice",
+    "pages/search/search"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "天天壁纸",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "static/tabBar/home.png",
+        "selectedIconPath": "static/tabBar/home-h.png",
+        "text": "推荐",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "static/tabBar/classify.png",
+        "selectedIconPath": "static/tabBar/classify-h.png",
+        "text": "分类",
+        "pagePath": "pages/classify/classify"
+      },
+      {
+        "iconPath": "static/tabBar/user.png",
+        "selectedIconPath": "static/tabBar/user-h.png",
+        "text": "我的",
+        "pagePath": "pages/mine/mine"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

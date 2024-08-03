@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "分类",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-navigator-bar": "../../components/custom-navigator-bar/custom-navigator-bar",
+    "custom-picture-list": "../../components/custom-picture-list/custom-picture-list"
+  }
+}

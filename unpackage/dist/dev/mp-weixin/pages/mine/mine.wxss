@@ -1,0 +1,109 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 自定义颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.pageBg.data-v-7c2ebfa5{
+	background: 
+	linear-gradient(to bottom,transparent 100rpx,#fff 200rpx),
+	linear-gradient(to right,#beecd8 40%,#F4E2D8);
+	min-height: 80vh;
+}
+.mine.data-v-7c2ebfa5 {
+  padding: 5rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.mine .userInfo.data-v-7c2ebfa5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mine .userInfo .avator.data-v-7c2ebfa5 {
+  height: 160rpx;
+  width: 160rpx;
+  margin-top: 60rpx;
+}
+.mine .userInfo .avator image.data-v-7c2ebfa5 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.mine .userInfo .myIp.data-v-7c2ebfa5 {
+  margin-top: 30rpx;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 40rpx;
+  color: #000;
+}
+.mine .userInfo .myLocation.data-v-7c2ebfa5 {
+  margin-top: 10rpx;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 30rpx;
+  color: #8a8a8a;
+}
+.mine .section.data-v-7c2ebfa5 {
+  margin-top: 30rpx;
+  width: 100%;
+  box-shadow: 0 0 5rpx rgba(0, 0, 0, 0.5);
+  border-radius: 20rpx;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30rpx;
+  border: 1px solid #eee;
+}
+.mine .section .item.data-v-7c2ebfa5 {
+  margin: 4rpx;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #8a8a8a !important;
+  border-bottom: 1px solid #eee;
+}
+.mine .section .item .left.data-v-7c2ebfa5 {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+}
+.mine .section .item.data-v-7c2ebfa5  .uni-icons {
+  color: #D98719 !important;
+  margin-left: 20 rpx;
+  margin-right: 10rpx;
+}
+.mine .section .item .right.data-v-7c2ebfa5 {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+}
+.mine .section .item .right .right-text.data-v-7c2ebfa5 {
+  color: #8a8a8a !important;
+  margin: 10rpx;
+}
+.mine .section .item.data-v-7c2ebfa5:last-child {
+  border: none;
+}

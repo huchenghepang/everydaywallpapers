@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),t={__name:"common-push",props:{title:{require:!0,default:"标题"}},setup:t=>(o,c)=>({a:e.t(t.title)})},o=e._export_sfc(t,[["__scopeId","data-v-5cfac763"]]);wx.createComponent(o);

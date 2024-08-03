@@ -1,0 +1,1 @@
+<view class="article"><view class="title"><view>{{a}}</view></view><view class="author"><view>作者:{{b}}</view></view><rich-text nodes="{{c}}"></rich-text></view>

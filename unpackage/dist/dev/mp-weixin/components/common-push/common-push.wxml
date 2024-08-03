@@ -1,0 +1,1 @@
+<view class="push-box data-v-91a31fe7"><view class="left data-v-91a31fe7"><block wx:if="{{$slots.left}}"><slot name="left"></slot></block><block wx:else><view class="data-v-91a31fe7">{{a}}</view></block></view><view class="center data-v-91a31fe7"><slot name="center"></slot></view><view class="right data-v-91a31fe7"><slot name="right"></slot></view></view>
